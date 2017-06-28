@@ -1,0 +1,88 @@
+
+
+body {
+    background-image: url("background.jpg");
+    margin-bottom: 50px;
+    font-family:'Eater', cursive;
+    color: yellow;
+}
+
+label {
+    color: #fff;
+    padding-right: 15px;
+}
+
+.text-right{
+
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+ 
+}
+
+.jumbotron{
+    background-image: url("https://media.giphy.com/media/3o6gbbuLW76jkt8vIc/giphy.gif");
+    background-size: 800px, 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+  padding: 200px;
+}
+#search-div {
+    text-align: center;
+}
+
+#searchGif,
+button{
+    
+    background-color: red;
+
+}
+
+
+#searchGif:hover,
+#searchGif:active,
+#searchGif:focus,
+button:hover,
+button:active,
+button:focus {
+    background-color: lightblue;
+    box-shadow: 0px 0px 10px white;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.btns {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 55px;
+}
+
+.gifImgs {
+    margin: 5px;
+    display: block;
+}
+#gifButtons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#search-div {
+    margin-bottom: 30px;
+}
+
+
+.gifRating {
+    color: purple;
+}
+
+.imgDiv {
+    float: left;
+    margin-top: 30px;
+}
