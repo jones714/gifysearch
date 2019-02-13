@@ -82,7 +82,10 @@ $(document.body).on("click", ".btns", function() {
             $("#gifResults").append(gifImgDiv);
             $(gifImgDiv).css("display", "none");
         }
-            $(".imgDiv").css("display", "block");
+        $(".imgDiv").css("display", "block");
+        $(".imgDiv").css("width", "500px");
+        $("#gifResults").css("height", "1500px");
+        $("#gifResults").css("background-color", "white");
        
     })
 

@@ -4,8 +4,9 @@ body {
     background-image: url("background.jpg");
     margin-bottom: 50px;
     font-family:'Eater', cursive;
-    color: yellow;
+    color: black;
 }
+
 
 label {
     color: #fff;
@@ -27,6 +28,7 @@ label {
     background-repeat: no-repeat;
     background-color: black;
   padding: 200px;
+  color: blueviolet;
 }
 #search-div {
     text-align: center;
@@ -35,7 +37,7 @@ label {
 #searchGif,
 button{
     
-    background-color: red;
+    background-color: white;
 
 }
 
@@ -85,4 +87,6 @@ button:focus {
 .imgDiv {
     float: left;
     margin-top: 30px;
+    margin: center;
 }
+
