@@ -14,7 +14,7 @@ var gifArr = [
     "turtleneck and chain",
     "tiger",
     "escape goat",
-    "im felling",
+    "im falling",
     "whatever",
     "run",
     "lannister"
@@ -28,7 +28,7 @@ function addButtons() {
     // Creates the buttons
     for (var i = 0; i < gifArr.length; i++) {
         var btns = $("<button>");
-        btns.addClass("btns");
+        btns.addClass("btns ");
         btns.attr("data-value", gifArr[i]);
         btns.text(gifArr[i]);
         $("#gifButtons").append(btns);
@@ -81,11 +81,13 @@ $(document.body).on("click", ".btns", function() {
 
             $("#gifResults").append(gifImgDiv);
             $(gifImgDiv).css("display", "none");
-        }
-        $(".imgDiv").css("display", "block");
+            $(".imgDiv").css("display", "block");
         $(".imgDiv").css("width", "500px");
+        $(".imgDiv").css("padding-left", "15%");
+        }
+            
         $("#gifResults").css("height", "1500px");
-        $("#gifResults").css("background-color", "white");
+        $("#gifResults").css("background-color", "Black");
        
     })
 
