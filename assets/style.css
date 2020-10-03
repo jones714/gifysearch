@@ -1,9 +1,9 @@
 
-
 body {
-    background-image: url("background.jpg");
+ background-color: gray;
     margin-bottom: 50px;
-    font-family:'Eater', cursive;
+    font-family:'Bangers', cursive;
+    font-size: 20px;
     color: black;
 }
 
@@ -15,10 +15,13 @@ label {
 
 .text-right{
 
-    position: absolute;
+    position: ;
     bottom: 60%;
-    right: 10%;
+    right: 30%;
  
+}
+#search-form{
+    padding-top: 20px;
 }
 
 .jumbotron{
@@ -52,18 +55,16 @@ button:focus {
     box-shadow: 0px 0px 10px white;
 }
 
+.btn-group{
+    background-color: gray;
+}
+
 .container {
     margin-top: 10px;
 }
 
 .btns {
-    margin-left: 2px;
-    margin-right: 2px;
-    margin-bottom: 10px;
-    border-radius: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 55px;
+  
 }
 
 .gifImgs {
@@ -81,7 +82,7 @@ button:focus {
 
 
 .gifRating {
-    color: purple;
+    color: white;
 }
 
 .imgDiv {
@@ -90,3 +91,12 @@ button:focus {
     margin: center;
 }
 
+#gifButtons{
+
+    background-color: black;
+}
+
+#gifResults{
+
+
+}
